@@ -14,7 +14,9 @@ const noLog = {
   info: noop,
 };
 
-const internals = {};
+const internals = {
+  isEE: true,
+};
 
 module.exports = ({ dir, logger = noLog }) => {
   if (_.has(internals, 'isEE')) return internals.isEE;
