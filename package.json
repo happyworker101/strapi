@@ -100,10 +100,6 @@
   },
   "license": "SEE LICENSE IN LICENSE",
   "name": "strapi-monorepo",
-  "workspaces": [
-    "packages/*",
-    "examples/*"
-  ],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
