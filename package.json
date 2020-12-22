@@ -1,5 +1,4 @@
 {
-  "private": true,
   "dependencies": {},
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.9.0",
